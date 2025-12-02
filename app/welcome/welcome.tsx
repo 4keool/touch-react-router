@@ -19,7 +19,7 @@ export function Welcome({ message }: { message: string }) {
             <ul className="space-y-2 text-gray-700 dark:text-gray-300">
               <li className="flex items-start">
                 <span className="text-blue-500 mr-2">•</span>
-                <span>매월 정기전 4회 중 최소 1회 이상 필참</span>
+                <span className="font-semibold text-blue-600 dark:text-blue-400">매월 정기전 4회 중 최소 1회 이상 필참</span>
               </li>
               <li className="flex items-start">
                 <span className="text-blue-500 mr-2">•</span>
