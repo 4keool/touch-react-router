@@ -3,7 +3,7 @@ import { Welcome } from "../welcome/welcome";
 
 export function meta({ }: Route.MetaArgs) {
   return [
-    { title: "볼터치 공지사항" },
+    { title: "볼터치 임시 사이트" },
     { name: "description", content: "임시 사이트입니다." },
   ];
 }
