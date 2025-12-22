@@ -91,7 +91,7 @@ npm run deploy
 To deploy a preview URL:
 
 ```sh
-npx wrangler versions upload
+npm run deploy:preview
 ```
 
 You can then promote a version to production after verification or roll it out progressively.
