@@ -148,24 +148,31 @@ export function Crush() {
                                 </ul>
                             </div>
                             <div>
-                                <h3 className="font-semibold text-lg text-gray-900 dark:text-white mb-1">3. 연 1회 연말 이벤트 게임</h3>
+                                <h3 className="font-semibold text-lg text-gray-900 dark:text-white mb-1">3. 불개임 및 연말 이벤트 게임</h3>
                                 <ul className="list-disc list-inside ml-2 space-y-1 text-sm">
+                                    <li>3개월에 한번씩 불개임 (볼링공 3~4개) 지급 방법은 추후 공지</li>
                                     <li>매년 12월 진행되는 연말 이벤트 게임에 회비 사용</li>
                                     <li>참가자 전원 참여 가능한 특별 게임 운영</li>
                                     <li>단, 전체 볼 지급 같은 고비용 선물은 제외하고, 이벤트 중심으로 운영</li>
-                                    <li>연말 이벤트 참가비 납부 예정</li>
+                                    <li>연말 이벤트 참가비 납부 예정 (금액은 연말에 추후 공지)</li>
                                 </ul>
                             </div>
                             <div>
                                 <h3 className="font-semibold text-lg text-gray-900 dark:text-white mb-1">4. 출석률 베네핏 제도(꾸준한 활동 장려 목적을 위해 진행)</h3>
                                 <div className="ml-2 text-sm space-y-2 mt-2">
-                                    <p>출석률 70% 이상 달성 회원에게 베네핏 제공 <span className="font-medium text-red-500">(6개월 기준 12회 중 9회이상 참여)</span></p>
+                                    <p className="space-y-2">
+                                        <span className="block">※ 신입 회원은 가입일로부터 6개월 시정까지 적용</span>
+                                        <span className="block">※ 공중영에 따라 최저치는 변경 될 수 있음</span>
+                                    </p>
+                                    <p className="mt-3">출석률 80% 이상 달성 회원에게 베네핏 제공 <span className="font-medium text-red-500">(6개월 기준 12회 중 10회이상 참여)</span></p>
                                     <div className="bg-gray-50 dark:bg-gray-700/50 p-3 rounded-lg border border-gray-100 dark:border-gray-600">
-                                        <p className="font-semibold mb-2">베네핏 (택1): <br /><span className="text-blue-600 dark:text-blue-400">정기전 시 1회 음료 지원 + </span></p>
+                                        <p className="font-semibold mb-2">베네핏 (택1):</p>
                                         <ul className="list-disc list-inside ml-2 space-y-1">
+                                            <li>정기전 시 1회 음료 지원</li>
                                             <li>연말 이벤트 참가비 할인</li>
                                             <li>정기전비 1회 지원</li>
                                             <li>볼링 용품 set 지급</li>
+                                            <li>음료 지원</li>
                                         </ul>
                                     </div>
                                 </div>
