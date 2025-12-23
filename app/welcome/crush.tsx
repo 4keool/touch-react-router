@@ -98,49 +98,57 @@ export function Crush() {
                     </div>
 
                     {/* Rule 5: Dues Regulations */}
-                    <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-6 border border-gray-200 dark:border-gray-700">
-                        <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+                    <div className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-900/30 rounded-2xl shadow-lg p-6 border-2 border-blue-300 dark:border-blue-700">
+                        <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center">
+                            <span className="mr-2">💰</span>
                             5. 회비 규정
                         </h2>
                         <ul className="space-y-3 text-gray-700 dark:text-gray-300">
                             <li className="flex items-start">
-                                <span className="font-bold mr-2">1.</span>
+                                <span className="text-blue-500 mr-2 font-bold text-lg">•</span>
                                 <span><span className="font-semibold">정기 회비:</span> <span className="text-red-600 dark:text-red-400 font-bold text-lg">월 15,000원</span></span>
                             </li>
                             <li className="flex items-start">
-                                <span className="font-bold mr-2">2.</span>
+                                <span className="text-blue-500 mr-2 font-bold text-lg">•</span>
                                 <span><span className="font-semibold">납부일:</span> <span className="font-bold text-orange-600 dark:text-orange-400">매월 1일</span></span>
                             </li>
                             <li className="flex items-start">
-                                <span className="font-bold mr-2">3.</span>
+                                <span className="text-blue-500 mr-2 font-bold text-lg">•</span>
                                 <span><span className="font-semibold">사용처:</span> 정기전 이벤트 및 운영비</span>
                             </li>
                             <li className="flex items-start">
-                                <span className="font-bold mr-2">4.</span>
-                                <span>정산은 <span className="font-semibold text-blue-600 dark:text-blue-400">매월 말 투명하게 공개</span></span>
+                                <span className="text-green-500 mr-2 font-bold text-lg">✔️</span>
+                                <span>정산은 <span className="font-semibold text-green-600 dark:text-green-400">매월 말 투명하게 공개</span></span>
                             </li>
                             <li className="flex items-start">
-                                <span className="font-bold mr-2">5.</span>
+                                <span className="text-red-500 mr-2 font-bold text-lg">•</span>
                                 <span>상주리그 우승 상금(승패상금)은 <span className="font-semibold text-green-600 dark:text-green-400">전액 클럽 회비로 귀속</span></span>
                             </li>
                         </ul>
                     </div>
 
                     {/* Rule 6: Dues Usage Plan */}
-                    <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-6 border border-gray-200 dark:border-gray-700">
-                        <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+                    <div className="bg-gradient-to-br from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/30 rounded-2xl shadow-lg p-6 border-2 border-green-300 dark:border-green-700">
+                        <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center">
+                            <span className="mr-2">🎁</span>
                             6. 회비 사용 계획
                         </h2>
                         <div className="space-y-4 text-gray-700 dark:text-gray-300">
                             <div>
-                                <h3 className="font-semibold text-lg text-gray-900 dark:text-white mb-1">1. 정기전 이벤트 운영</h3>
+                                <h3 className="font-semibold text-lg text-gray-900 dark:text-white mb-1 flex items-center">
+                                    <span className="text-blue-500 mr-2">✔️</span>
+                                    1. 정기전 이벤트 운영
+                                </h3>
                                 <ul className="list-disc list-inside ml-2 space-y-1 text-sm">
                                     <li>매월 진행되는 정기전에서 소소한 상품/미니게임/랜덤 이벤트 등에 회비 일부 사용</li>
                                     <li>참여 동기 부여 및 동호회 분위기 활성화 목적</li>
                                 </ul>
                             </div>
                             <div>
-                                <h3 className="font-semibold text-lg text-gray-900 dark:text-white mb-1">2. 상주리그 팀 지원금</h3>
+                                <h3 className="font-semibold text-lg text-gray-900 dark:text-white mb-1 flex items-center">
+                                    <span className="text-green-500 mr-2">✔️</span>
+                                    2. 상주리그 팀 지원금
+                                </h3>
                                 <ul className="list-disc list-inside ml-2 space-y-1 text-sm">
                                     <li>상주리그 시 <span className="font-bold text-green-600 dark:text-green-400">5,000원의 상주지원금</span> 지급</li>
                                     <li>출전일 기준 음료 1인 <span className="font-bold text-green-600 dark:text-green-400">2,000원 추가 제공</span> (<span className="font-bold text-green-600 dark:text-green-400">총 6,000원 지원</span>)</li>
@@ -148,7 +156,10 @@ export function Crush() {
                                 </ul>
                             </div>
                             <div>
-                                <h3 className="font-semibold text-lg text-gray-900 dark:text-white mb-1">3. 불개임 및 연말 이벤트 게임</h3>
+                                <h3 className="font-semibold text-lg text-gray-900 dark:text-white mb-1 flex items-center">
+                                    <span className="text-orange-500 mr-2">✔️</span>
+                                    3. 불개임 및 연말 이벤트 게임
+                                </h3>
                                 <ul className="list-disc list-inside ml-2 space-y-1 text-sm">
                                     <li>3개월에 한번씩 불개임 (볼링공 3~4개) 지급 방법은 추후 공지</li>
                                     <li>매년 12월 진행되는 연말 이벤트 게임에 회비 사용</li>
@@ -180,50 +191,52 @@ export function Crush() {
                         </div>
                     </div>
                     {/* Rule 7: Resident League */}
-                    <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-6 border border-gray-200 dark:border-gray-700">
-                        <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+                    <div className="bg-gradient-to-br from-purple-50 to-blue-50 dark:from-purple-900/20 dark:to-blue-900/30 rounded-2xl shadow-lg p-6 border-2 border-purple-300 dark:border-purple-700">
+                        <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center">
+                            <span className="mr-2">🏆</span>
                             7. 상주 리그
                         </h2>
                         <ul className="space-y-3 text-gray-700 dark:text-gray-300">
                             <li className="flex items-start">
-                                <span className="font-bold mr-2">1.</span>
+                                <span className="text-purple-500 mr-2 font-bold text-lg">•</span>
                                 <span>상주리그 대회는 클럽 대표로 참가한다는 책임감을 갖는다.</span>
                             </li>
                             <li className="flex items-start">
-                                <span className="font-bold mr-2">2.</span>
+                                <span className="text-purple-500 mr-2 font-bold text-lg">•</span>
                                 <span>선수 선발 방식은 운영진 공지에 따른다.</span>
                             </li>
                             <li className="flex items-start">
-                                <span className="font-bold mr-2">3.</span>
+                                <span className="text-purple-500 mr-2 font-bold text-lg">•</span>
                                 <span>경기력, 출석률, 태도 등을 종합적으로 고려하여 선수 선발</span>
                             </li>
                             <li className="flex items-start">
-                                <span className="font-bold mr-2">4.</span>
+                                <span className="text-red-500 mr-2 font-bold text-lg">⚠️</span>
                                 <span>팀 분위기를 해치는 행동이 있을 경우 선수 자격이 제한</span>
                             </li>
                             <li className="flex items-start">
-                                <span className="font-bold mr-2">5.</span>
+                                <span className="text-green-500 mr-2 font-bold text-lg">✔️</span>
                                 <span>순위 상금(9위까지)은 상주 선수 개인에게 지급 (참여율에 따라 비율로 분배)</span>
                             </li>
                         </ul>
                     </div>
 
                     {/* Rule 8: Fine Regulations */}
-                    <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-6 border border-gray-200 dark:border-gray-700">
-                        <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+                    <div className="bg-gradient-to-br from-red-50 to-pink-50 dark:from-red-900/20 dark:to-pink-900/30 rounded-2xl shadow-lg p-6 border-2 border-red-300 dark:border-red-700">
+                        <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center">
+                            <span className="mr-2">⚠️</span>
                             8. 벌금 규정
                         </h2>
                         <ul className="space-y-3 text-gray-700 dark:text-gray-300">
                             <li className="flex items-start">
-                                <span className="font-bold mr-2">1.</span>
+                                <span className="text-red-500 mr-2 font-bold text-lg">•</span>
                                 <span>정기전 무단 불참 – <span className="font-bold text-red-600 dark:text-red-400 bg-red-50 dark:bg-red-900/20 px-2 py-1 rounded">10,000원</span></span>
                             </li>
                             <li className="flex items-start">
-                                <span className="font-bold mr-2">2.</span>
+                                <span className="text-orange-500 mr-2 font-bold text-lg">•</span>
                                 <span>정기전 지각 – <span className="font-bold text-orange-600 dark:text-orange-400 bg-orange-50 dark:bg-orange-900/20 px-2 py-1 rounded">3,000원</span> (단, 미리 한시간 전 공지 시 제외)</span>
                             </li>
                             <li className="flex items-start">
-                                <span className="font-bold mr-2">3.</span>
+                                <span className="text-red-500 mr-2 font-bold text-lg">•</span>
                                 <span>유니폼 미 착용시 – <span className="font-bold text-red-600 dark:text-red-400 bg-red-50 dark:bg-red-900/20 px-2 py-1 rounded">5,000원</span></span>
                             </li>
                         </ul>
