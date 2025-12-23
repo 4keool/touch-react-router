@@ -105,11 +105,11 @@ export function Crush() {
                         <ul className="space-y-3 text-gray-700 dark:text-gray-300">
                             <li className="flex items-start">
                                 <span className="font-bold mr-2">1.</span>
-                                <span><span className="font-semibold">정기 회비:</span> 월 15,000원</span>
+                                <span><span className="font-semibold">정기 회비:</span> <span className="text-red-600 dark:text-red-400 font-bold text-lg">월 15,000원</span></span>
                             </li>
                             <li className="flex items-start">
                                 <span className="font-bold mr-2">2.</span>
-                                <span><span className="font-semibold">납부일:</span> 매월 1일</span>
+                                <span><span className="font-semibold">납부일:</span> <span className="font-bold text-orange-600 dark:text-orange-400">매월 1일</span></span>
                             </li>
                             <li className="flex items-start">
                                 <span className="font-bold mr-2">3.</span>
@@ -117,11 +117,11 @@ export function Crush() {
                             </li>
                             <li className="flex items-start">
                                 <span className="font-bold mr-2">4.</span>
-                                <span>정산은 매월 말 투명하게 공개</span>
+                                <span>정산은 <span className="font-semibold text-blue-600 dark:text-blue-400">매월 말 투명하게 공개</span></span>
                             </li>
                             <li className="flex items-start">
                                 <span className="font-bold mr-2">5.</span>
-                                <span>상주리그 우승 상금(승패상금)은 전액 클럽 회비로 귀속</span>
+                                <span>상주리그 우승 상금(승패상금)은 <span className="font-semibold text-green-600 dark:text-green-400">전액 클럽 회비로 귀속</span></span>
                             </li>
                         </ul>
                     </div>
@@ -142,8 +142,8 @@ export function Crush() {
                             <div>
                                 <h3 className="font-semibold text-lg text-gray-900 dark:text-white mb-1">2. 상주리그 팀 지원금</h3>
                                 <ul className="list-disc list-inside ml-2 space-y-1 text-sm">
-                                    <li>상주리그 시 5,000원의 상주지원금 지급</li>
-                                    <li>출전일 기준 음료 1인 2,000원 추가 제공 (총 6,000원 지원)</li>
+                                    <li>상주리그 시 <span className="font-bold text-green-600 dark:text-green-400">5,000원의 상주지원금</span> 지급</li>
+                                    <li>출전일 기준 음료 1인 <span className="font-bold text-green-600 dark:text-green-400">2,000원 추가 제공</span> (<span className="font-bold text-green-600 dark:text-green-400">총 6,000원 지원</span>)</li>
                                     <li>팀 운영 부담 완화 및 상주리그 지속 참여 유도</li>
                                 </ul>
                             </div>
@@ -160,11 +160,11 @@ export function Crush() {
                             <div>
                                 <h3 className="font-semibold text-lg text-gray-900 dark:text-white mb-1">4. 출석률 베네핏 제도(꾸준한 활동 장려 목적을 위해 진행)</h3>
                                 <div className="ml-2 text-sm space-y-2 mt-2">
-                                    <p className="space-y-2">
-                                        <span className="block">※ 신입 회원은 가입일로부터 6개월 시정까지 적용</span>
-                                        <span className="block">※ 공중영에 따라 최저치는 변경 될 수 있음</span>
+                                    <p className="space-y-2 bg-yellow-50 dark:bg-yellow-900/20 p-2 rounded border border-yellow-200 dark:border-yellow-800">
+                                        <span className="block text-yellow-800 dark:text-yellow-200">※ 신입 회원은 가입일로부터 6개월 시정까지 적용</span>
+                                        <span className="block text-yellow-800 dark:text-yellow-200">※ 공중영에 따라 최저치는 변경 될 수 있음</span>
                                     </p>
-                                    <p className="mt-3">출석률 80% 이상 달성 회원에게 베네핏 제공 <span className="font-medium text-red-500">(6개월 기준 12회 중 10회이상 참여)</span></p>
+                                    <p className="mt-3">출석률 <span className="bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-300 font-bold px-2 py-1 rounded">80% 이상</span> 달성 회원에게 베네핏 제공 <span className="font-medium text-red-600 dark:text-red-400 bg-red-50 dark:bg-red-900/20 px-2 py-1 rounded">(6개월 기준 12회 중 10회이상 참여)</span></p>
                                     <div className="bg-gray-50 dark:bg-gray-700/50 p-3 rounded-lg border border-gray-100 dark:border-gray-600">
                                         <p className="font-semibold mb-2">베네핏 (택1):</p>
                                         <ul className="list-disc list-inside ml-2 space-y-1">
@@ -216,15 +216,15 @@ export function Crush() {
                         <ul className="space-y-3 text-gray-700 dark:text-gray-300">
                             <li className="flex items-start">
                                 <span className="font-bold mr-2">1.</span>
-                                <span>정기전 무단 불참 – 10,000원</span>
+                                <span>정기전 무단 불참 – <span className="font-bold text-red-600 dark:text-red-400 bg-red-50 dark:bg-red-900/20 px-2 py-1 rounded">10,000원</span></span>
                             </li>
                             <li className="flex items-start">
                                 <span className="font-bold mr-2">2.</span>
-                                <span>정기전 지각 – 3,000원 (단, 미리 한시간 전 공지 시 제외)</span>
+                                <span>정기전 지각 – <span className="font-bold text-orange-600 dark:text-orange-400 bg-orange-50 dark:bg-orange-900/20 px-2 py-1 rounded">3,000원</span> (단, 미리 한시간 전 공지 시 제외)</span>
                             </li>
                             <li className="flex items-start">
                                 <span className="font-bold mr-2">3.</span>
-                                <span>유니폼 미 착용시 – 5,000원</span>
+                                <span>유니폼 미 착용시 – <span className="font-bold text-red-600 dark:text-red-400 bg-red-50 dark:bg-red-900/20 px-2 py-1 rounded">5,000원</span></span>
                             </li>
                         </ul>
                     </div>
