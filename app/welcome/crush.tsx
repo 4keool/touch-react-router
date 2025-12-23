@@ -287,6 +287,11 @@ export function Crush() {
                     </div>
 
                 </div>
+
+                {/* Footer */}
+                <div className="mt-12 text-center text-gray-500 dark:text-gray-400 text-sm">
+                    <p>모든 회원은 위 규칙을 숙지하고 준수해야 합니다.</p>
+                </div>
             </div>
         </main>
     );
