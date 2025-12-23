@@ -60,25 +60,20 @@ export function Crush() {
                         <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
                             3. 운영 구조
                         </h2>
-                        <div className="space-y-4">
-                            <h3 className="font-semibold text-lg text-gray-900 dark:text-white mb-2">
-                                (1) 운영진
-                            </h3>
-                            <ul className="space-y-2 text-gray-700 dark:text-gray-300 ml-4">
-                                <li className="flex items-center">
-                                    <span className="bg-red-100 text-red-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-red-200 dark:text-red-900">회장</span>
-                                    <span>전체 운영 총괄</span>
-                                </li>
-                                <li className="flex items-center">
-                                    <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-900">총무</span>
-                                    <span>회비 관리 및 정산</span>
-                                </li>
-                                <li className="flex items-center">
-                                    <span className="bg-green-100 text-green-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-green-200 dark:text-green-900">현장관리</span>
-                                    <span>정기전 운영</span>
-                                </li>
-                            </ul>
-                        </div>
+                        <ul className="space-y-2 text-gray-700 dark:text-gray-300 ml-4">
+                            <li className="flex items-center">
+                                <span className="bg-red-100 text-red-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-red-200 dark:text-red-900">회장</span>
+                                <span>전체 운영 총괄</span>
+                            </li>
+                            <li className="flex items-center">
+                                <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-900">총무</span>
+                                <span>회비 관리 및 정산</span>
+                            </li>
+                            <li className="flex items-center">
+                                <span className="bg-green-100 text-green-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-green-200 dark:text-green-900">현장관리</span>
+                                <span>정기전 운영</span>
+                            </li>
+                        </ul>
                     </div>
 
                     {/* Rule 4: Regular Meetings */}
@@ -126,7 +121,7 @@ export function Crush() {
                             </li>
                             <li className="flex items-start">
                                 <span className="font-bold mr-2">5.</span>
-                                <span>상주리그(싱주리그) 우승 상금은 전액 클럽 회비로 귀속</span>
+                                <span>상주리그 우승 상금(승패상금)은 전액 클럽 회비로 귀속</span>
                             </li>
                         </ul>
                     </div>
@@ -142,7 +137,6 @@ export function Crush() {
                                 <ul className="list-disc list-inside ml-2 space-y-1 text-sm">
                                     <li>매월 진행되는 정기전에서 소소한 상품/미니게임/랜덤 이벤트 등에 회비 일부 사용</li>
                                     <li>참여 동기 부여 및 동호회 분위기 활성화 목적</li>
-                                    <li>예: 스트라이크, 라면이벤트, 볼링 용품 지급 등</li>
                                 </ul>
                             </div>
                             <div>
@@ -163,12 +157,18 @@ export function Crush() {
                                 </ul>
                             </div>
                             <div>
-                                <h3 className="font-semibold text-lg text-gray-900 dark:text-white mb-1">4. 출석률 베네핏 제도</h3>
-                                <ul className="list-disc list-inside ml-2 space-y-1 text-sm">
-                                    <li>출석률 70% 이상 달성 회원에게 베네핏 제공</li>
-                                    <li>예시 베네핏(택1): 연말 이벤트 참가비 면제 또는 할인, 정기전비 1회 지원, 음료 제공, 볼링 용품 set 지원</li>
-                                    <li>꾸준한 활동 장려 목적</li>
-                                </ul>
+                                <h3 className="font-semibold text-lg text-gray-900 dark:text-white mb-1">4. 출석률 베네핏 제도(꾸준한 활동 장려 목적을 위해 진행)</h3>
+                                <div className="ml-2 text-sm space-y-2 mt-2">
+                                    <p>출석률 70% 이상 달성 회원에게 베네핏 제공 <span className="font-medium text-red-500">(6개월 기준 12회 중 9회이상 참여)</span></p>
+                                    <div className="bg-gray-50 dark:bg-gray-700/50 p-3 rounded-lg border border-gray-100 dark:border-gray-600">
+                                        <p className="font-semibold mb-2">베네핏 (택1): <br /><span className="text-blue-600 dark:text-blue-400">정기전 시 1회 음료 지원 + </span></p>
+                                        <ul className="list-disc list-inside ml-2 space-y-1">
+                                            <li>연말 이벤트 참가비 할인</li>
+                                            <li>정기전비 1회 지원</li>
+                                            <li>볼링 용품 set 지급</li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -193,6 +193,10 @@ export function Crush() {
                             <li className="flex items-start">
                                 <span className="font-bold mr-2">4.</span>
                                 <span>팀 분위기를 해치는 행동이 있을 경우 선수 자격이 제한</span>
+                            </li>
+                            <li className="flex items-start">
+                                <span className="font-bold mr-2">5.</span>
+                                <span>순위 상금(9위까지)은 상주 선수 개인에게 지급 (참여율에 따라 비율로 분배)</span>
                             </li>
                         </ul>
                     </div>
@@ -267,3 +271,4 @@ export function Crush() {
         </main>
     );
 }
+
